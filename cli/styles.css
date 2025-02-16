@@ -1,0 +1,47 @@
+/* style.css */
+body {
+    font-family: monospace;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 20px;
+}
+
+#terminal {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#input-line {
+    display: flex;
+}
+
+#prompt {
+    color: #0f0;
+    margin-right: 5px;
+}
+
+#command-input {
+    background: transparent;
+    border: none;
+    color: #eee;
+    outline: none;
+    flex-grow: 1;
+    font-family: monospace;
+    font-size: inherit;
+}
+
+.output {
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+}
+
+.welcome-message {
+    color: lightblue;
+}
