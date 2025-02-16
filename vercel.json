@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+      { "source": "/editor", "destination": "/ojs/index.html" },
+      { "source": "/editor/cli", "destination": "/cli/index.html" }
+  ]
+}
