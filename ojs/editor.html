@@ -5,10 +5,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center><h1>Welcome to the OverJS Editor</h1></center>
-    <div class="button-bar">  </div>
-    <div id="RuleContainer">
+    <h1>OverJS Editor</h1>
+
+    <div class="button-bar">
+        <button class="add-rule-button" onclick="addNewRule()"></button>
+        <button onclick="newSubroutine()">New Subroutine</button>
+
+        <div class="vertical-divider"></div>  <button onclick="saveFile()">Save</button>
+        <button onclick="openFile()">Open</button>
+        <button onclick="copyWorkshop()">Copy Workshop</button>
+
+        <div class="vertical-divider right-divider"></div>  <button onclick="selectAll()">Select All</button>
     </div>
+
+    <div id="RuleContainer">
+        <p id="noRulesMessage">No rules yet. Click "Add Rule" to create one.</p>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
