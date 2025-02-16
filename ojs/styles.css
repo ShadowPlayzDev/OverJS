@@ -14,7 +14,7 @@
 }
 
 .add-rule-button {
-    background-image: url("/assets/new_rule.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/ShadowPlayzDev/OverJS@main/ojs/new_rule.svg");
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: center;
