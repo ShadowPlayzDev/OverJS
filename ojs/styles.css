@@ -1,0 +1,35 @@
+.button-bar {
+    display: flex;
+    justify-content: flex-end; /* Align to right */
+    align-items: center; /* Vertically center */
+    margin-bottom: 10px;
+}
+
+.button-bar button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.add-rule-button {
+    background-image: url("/assets/new_rule.svg");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-right: auto; /* Push to the left */
+}
+
+.vertical-divider {
+    border-left: 1px solid #ccc;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.right-divider { /* Style for the second divider */
+    margin-left: 10px; /* Space to the left */
+}
